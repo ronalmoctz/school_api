@@ -1,7 +1,7 @@
 import { parse, pipe, object, string, minLength, maxLength } from 'valibot'
 import type { CreateUser, User } from '@/interfaces/usersInterface'
 import { createUserSchema } from '@/schemas/userSchema'
-import { AuthRepository } from '@/repositories/authRepo'
+import { AuthRepository } from '@/repositories/auth/authRepo'
 import { logger } from '@/helpers/logger'
 
 /**
