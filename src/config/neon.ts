@@ -2,7 +2,7 @@ import { Pool } from '@neondatabase/serverless';
 import { ENV } from './env';
 
 /**
- * Creamos un Pool de @neondatabase/serverless usando tu conexión
+ * Pool de @neondatabase/serverless usando tu conexión
  * a Neon (connectionString).
  *
  * De esta forma, en tus repositorios puedes hacer:
